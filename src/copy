@@ -1,0 +1,31 @@
+
+			<if test="ggpinglun.yonghuId!=null">
+				 AND yonghuId = #{ggpinglun.yonghuId} 
+			</if>
+			<if test="ggpinglun.byumenId!=null">
+				 AND byumenId = #{ggpinglun.byumenId} 
+			</if>
+			<if test="ggpinglun.yhroleId!=null">
+				 AND yhroleId = #{ggpinglun.yhroleId} 
+			</if>
+			<if test="ggpinglun.byuyuanId!=null">
+				 AND byuyuanId = #{ggpinglun.byuyuanId} 
+			</if>
+			<if test="ggpinglun.byuzhiId!=null">
+				 AND byuzhiId = #{ggpinglun.byuzhiId} 
+			</if>
+			<if test="ggpinglun.userId!=null">
+				 AND userId = #{ggpinglun.userId} 
+			</if>
+			<if test="ggpinglun.bumenId!=null">
+				 AND bumenId = #{ggpinglun.bumenId} 
+			</if>
+			<if test="ggpinglun.buyuanId!=null">
+				 AND buyuanId = #{ggpinglun.buyuanId} 
+			</if>
+			<if test="ggpinglun.buzhiId!=null">
+				 AND buzhiId = #{ggpinglun.buzhiId} 
+			</if>
+			<if test="ggpinglun.roleId!=null">
+				 AND roleId = #{ggpinglun.roleId} 
+			</if>
